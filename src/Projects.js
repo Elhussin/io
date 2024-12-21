@@ -20,7 +20,7 @@ export const Projects = () => {
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
             >
               <img
-                src={`/images/${project.img}` || "/api/placeholder/300/200"}
+                src={`${process.env.PUBLIC_URL}/images/${project.img}` || "/api/placeholder/300/200"}
                 alt={project.title}
                 className="w-full h-48 object-cover"
               />

@@ -12,7 +12,7 @@ const Certificates = () => {
             className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
           >
             <img
-              src={`/images/certi/${certificate.image}` || "/api/placeholder/300/200"}
+              src={`${process.env.PUBLIC_URL}/images/certi/${certificate.image}` || "/api/placeholder/300/200"}
               alt={certificate.title}
               className="w-full h-48 object-cover"
             />
