@@ -20,7 +20,7 @@ export const Projects = () => {
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
             >
               <img
-                src={`${process.env.PUBLIC_URL}/images/${project.img}` || "/api/placeholder/300/200"}
+                src={`${process.env.PUBLIC_URL}/images/project/${project.img}` || "/api/placeholder/300/200"}
                 alt={project.title}
                 className="w-full h-48 object-cover"
               />
@@ -33,7 +33,7 @@ export const Projects = () => {
                 </p>
                 <div className="flex gap-2">
                   <a
-                    href={project.link}
+                    href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -41,7 +41,7 @@ export const Projects = () => {
                     <ExternalLink className="w-5 h-5 cursor-pointer" />
                   </a>
                   <a
-                    href="https://github.com/first-maker"
+                    href={project.repo}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
