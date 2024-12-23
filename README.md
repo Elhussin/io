@@ -3,6 +3,17 @@
 
 This is my personal portfolio website where I showcase my skills, certifications, and projects. It also includes a contact section for connecting with me through various platforms like GitHub, LinkedIn, and email.
 
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Structure](#structure)
+- [Customizing](#customizing)`  
+- [Contribution](#contribution)
+- [Contact](#contact)
+- [Screenshots](#Screenshots)
+- [License](#license)
+
 ## Features
 
 - **Responsive Design**: The website is fully responsive and adapts to different screen sizes.
@@ -102,18 +113,28 @@ const certificates = [
 ];
 ```
 
+
 ## Contribution
 
 Feel free to fork this repository, clone it, and submit pull requests if you want to contribute improvements or add new features. If you find any issues, open an issue in the GitHub repository.
 
+We welcome contributions! To contribute, follow these steps:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a Pull Request.
+
 ## Contact
 
-You can reach me at the following platforms:
+If you have any questions or suggestions, feel free to contact me at:
+- **Email**: [hasin3112@gmail.com](mailto:hasin3112@gmail.com)
+- **GitHub**: [https://github.com/Elhussin](https://github.com/Elhussin)
+- **LinkedIn**: [https://www.linkedin.com/in/elhusseini2023](https://www.linkedin.com/in/elhusseini2023)
+- **WhatsApp**: [https://wa.me/+966540919725](https://wa.me/+966540919725)
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn**: [https://linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **WhatsApp**: [https://wa.me/yourphonenumber](https://wa.me/yourphonenumber)
+## Screenshots
+![Home Page](path/to/screenshot.png)
 
 ## License
 
