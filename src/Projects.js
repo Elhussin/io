@@ -23,7 +23,7 @@ export const Projects = () => {
                 src={`${process.env.PUBLIC_URL}/images/project/${project.img}` || "/api/placeholder/300/200"}
                 alt={project.title}
                 className="w-full h-48 object-cover"
-              />
+              />`         `
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   {project.title}

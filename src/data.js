@@ -129,21 +129,20 @@ export const datiles = {
       img: "logo.jpg",
     },
 
-    // ** 1 ** //
     {
       title: "Reed Book",
-      id: "1",
+      id: "15",
       repo: "https://read-books-react.netlify.app/",
-      url: "",
-      description: "Red book This app with React ",
+      url: "https://github.com/Elhussin/read-book",
+      description: "Read Book is a web application that allows users to browse and read a collection of books online.",
       img: "./logo.jpg",
     },
     {
-      title: "Order Trak",
-      id: "2",
+       title: "Static Apps",
+      id: "16",
       repo: "https://github.com/first-maker?tab=repositories",
-      url: "",
-      description: "This app with React ",
+      url: "https://elhussin.github.io/static-apps/",
+      description: "This project is a web-based tool that allows users to encode or decode text using Base64 encoding. It includes functionality for switching between Arabic and English languages, and provides options for copying the encoded/decoded result to the clipboard. allows users to view the current time and date in real-time, change the background color of the webpage, and customize the background of a specific section.Features",
       img: "./logo.jpg",
     },
     {
@@ -163,14 +162,6 @@ export const datiles = {
       img: "./logo.jpg",
     },
 
-    {
-      title: "Radio",
-      id: "7",
-      repo: "https://first-maker.github.io/Online-Radio/",
-      url: "",
-      description: "Radio App With Java Script ",
-      img: "logo.jpg",
-    },
   ],
 };
 

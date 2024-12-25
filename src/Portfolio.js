@@ -19,6 +19,11 @@ const Portfolio = () => {
       A Passionate Web Developer | Creative UI/UX Designer
     </p>
     <p className="text-lg text-gray-700 dark:text-gray-400 mb-8">
+      👋 Hi, I’m @hasin3112
+      👀 I’m interested in html, cs, php, javaScript, bootStrab ,React ,python
+      🌱 I’m currently learning Data Anllizitin , React ,
+      💞️ I’m looking to collaborate on FullSatk
+      📫 How to reach me on Twiter: @Hasintaha ,Email: Hasin3112@gmail.com
       I specialize in creating efficient, scalable, and visually appealing web applications.  
       With certifications from Harvard and Shiyar Academy, I bring expertise in technologies like Python JavaScript, PHP, MySQL, HTML, CSS, and more.
     </p>
