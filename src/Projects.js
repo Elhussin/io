@@ -1,29 +1,28 @@
-import { datiles } from "./data";
+
 import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 
 
-
-export const Projects = () => {
+const Projects = ({projects=[]}) => {
+  console.log(3,projects)
   return (
     <section id="projects" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white mb-12 text-center">
           My Projects
         </h2>
-        <p>Here are some of my recent projects...</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        
-          {datiles.data.map((project) => (
-            <div
-              key={project.id}
+
+          {projects.map((project,index) => (
+            <div 
+              key={index}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
             >
               <img
                 src={`${process.env.PUBLIC_URL}/images/project/${project.img}` || "/api/placeholder/300/200"}
                 alt={project.title}
                 className="w-full h-48 object-cover"
-              />`         `
+              />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   {project.title}
@@ -58,3 +57,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;

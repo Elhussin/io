@@ -1,5 +1,4 @@
-export const datiles = {
-  data: [
+export const projectsData = [
     {
       id: "1",
       title: "Summaries ",
@@ -85,7 +84,7 @@ export const datiles = {
     },
     {
       id: "10",
-      title: "Price Search App",
+      title: "Price List App",
       repo: "https://github.com/Elhussin/search",
       url: "https://github.com/Elhussin/search",
       description: ` A Smart Desktop App for Lens Price Search
@@ -94,78 +93,95 @@ export const datiles = {
     },
     {
       id: "11",
-      title: "Googl Search",
-      repo: "https://github.com/Elhussin/Search.googl.io/",
-      url: "elhussin.github.io/Search.googl.io/",
-      description:
-        "Search.googl.io is a project designed to create a front-end for Google Search, Google Image Search, and Google Advanced Search.",
-      img: "google-icon.png",
-    },
-    {
-      id: "12",
       title: "Online-Radio",
       repo: "https://github.com/Elhussin/Online-Radio",
       url: "https://elhussin.github.io/Online-Radio/",
       description: "This is a simple web application that allows users to listen to live radio streams, control volume and speed, and change the background color of the webpage. The project consists of HTML, CSS, and …",
       img: "radio.jpg",
     },
+    {
+      title: "Company-Hub",
+      id: "12",
+      repo: "https://github.com/Elhussin/company-hub-",
+      url: "http://company-hub.infy.uk/",
+      description: "This project is a web-based application developed using PHP, JavaScript, Bootstrap, CSS, and MySQL. It consists of an Admin Panel and a User Interface with dynamic features and a responsive design.",
+      img: "compan_hup.webp",
+    },
 
     {
       id: "13",
-      title: "order Trake PHP",
+      title: "Order Trake PHP",
       repo: "https://github.com/Elhussin/orderTraker",
       url: "http://order.infy.uk/",
       description: "About The Order Tracking System is a PHP-based web application designed to manage and monitor orders through various stages: Submitted to the lab Received back from the lab Delivered to the customer This system is tailored for businesses that require precise tracking of orders, ensuring smooth operations and transparency.",
       img: "orderTrack.jpeg",
     },
-
     {
+      title: "To Do PHP",
       id: "14",
+      repo: "https://github.com/Elhussin/toDo",
+      url: "http://to-do.infy.uk",
+      description: "Company This app with PHP ",
+      img: "todo.webp",
+    },
+    
+    {
+      title: "Reed Book React",
+      id: "15",
+      repo: "https://read-books-react.netlify.app/",
+      url: "https://github.com/Elhussin/read-book",
+      description: "Read Book is a web application that allows users to browse and read a collection of books online.",
+      img: "read.jpg",
+    },
+    {
+      id: "16",
       title: "C Project",
       repo: "https://github.com/Elhussin/cs50-projects/",
       url: "https://github.com/Elhussin/cs50-projects/",
       description:
         "This repository contains a collection of programs developed using the C programming language during the CS50 Computer Science course by Harvard University. The projects reflect a deep dive into the fundamentals of computer science, problem-solving, and programming logic.",
-      img: "logo.jpg",
-    },
-
-    {
-      title: "Reed Book",
-      id: "15",
-      repo: "https://read-books-react.netlify.app/",
-      url: "https://github.com/Elhussin/read-book",
-      description: "Read Book is a web application that allows users to browse and read a collection of books online.",
-      img: "./logo.jpg",
+      img: "c.png",
     },
     {
        title: "Static Apps",
-      id: "16",
-      repo: "https://github.com/first-maker?tab=repositories",
+      id: "17",
+      repo: "https://github.com/Elhussin/static-apps",
       url: "https://elhussin.github.io/static-apps/",
       description: "This project is a web-based tool that allows users to encode or decode text using Base64 encoding. It includes functionality for switching between Arabic and English languages, and provides options for copying the encoded/decoded result to the clipboard. allows users to view the current time and date in real-time, change the background color of the webpage, and customize the background of a specific section.Features",
-      img: "./logo.jpg",
+      img: "static.png",
     },
     {
-      title: "Company",
-      id: "3",
-      repo: "https://github.com/first-maker/login_signUp",
-      url: "",
-      description: "Company This app with PHP ",
-      img: "./logo.jpg",
+      id: "18",
+      title: "Googl Search",
+      repo: "https://github.com/Elhussin/Search.googl.io",
+      url: "https://elhussin.github.io/Search.googl.io/",
+      description:
+        "Search.googl.io is a project designed to create a front-end for Google Search, Google Image Search, and Google Advanced Search.",
+      img: "google-icon.png",
     },
     {
-      title: "Traker",
-      id: "4",
-      repo: "https://github.com/first-maker/orderTraker",
-      url: "",
-      description: "OrderTrakerThis App With PHP ",
-      img: "./logo.jpg",
+      id: "19",
+      title: "Data-analysis",
+      repo: "https://github.com/Elhussin/data-analysis",
+      url: "https://github.com/Elhussin/data-analysis/blob/main/Orders.exe",
+      description:
+        `This project is a feature-rich desktop application developed using PyQt5. It integrates multiple functionalities, including price list management, order management, WhatsApp messaging, eye test validation, contact lens power calculation, and date conversion. The application offers 
+        a seamless and efficient user experience through an intuitive graphical interface.`,
+      img:"data-analysis.png"
     },
+    {
+      id: "19",
+      title: "Portfolio React-App",
+      repo: "https://github.com/Elhussin/io",
+      url: "https://github.com/Elhussin/io",
+      description:
+        `This is my personal portfolio website where I showcase my skills, certifications, and projects. It also includes a contact section for connecting with me through various platforms like GitHub, LinkedIn, and email.`,
+      img:"data-analysis.png"
+    },
+  ]
 
-  ],
-};
 
-export const certificates = [
+export const certificatesData = [
   {
     title: "Web Programming Certificate from Harvard",
     url: "",

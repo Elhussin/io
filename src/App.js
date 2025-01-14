@@ -36,19 +36,10 @@ const App = () => {
         <div className={`min-h-screen ${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"}`}>
       <Header {...{isDarkMode, toggleDarkMode}} />
 
-      <main className="max-w-5xl mx-auto px-4 py-8">
+        <main className="max-w-5xl mx-auto px-4 py-8">
 
         <Portfolio />    {/* Use the Portfolio component */}
-        <section id="skills" className="mt-8">
-          <h2 className="text-2xl font-bold mb-4">Skills</h2>
-          <p>Here are some of my technical skills...</p>
-        </section>
-
-        <section id="contact" className="mt-8">
-          <h2 className="text-2xl font-bold mb-4">Contact</h2>
-          <p>Feel free to reach out via email or social media.</p>
-        </section>
-      </main>
+       </main>
       <Footer />
     </div>
     
