@@ -35,7 +35,7 @@ To run this portfolio website locally, follow the instructions below:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone [https://github.com/yourusername/portfolio.git](https://github.com/Elhussin/io.git)
    ```
 
 2. Navigate into the project directory:
