@@ -62,6 +62,12 @@ To run this portfolio website locally, follow the instructions below:
 - **React Icons**: For the social media icons (GitHub, LinkedIn, etc.).
 - **Lucide Icons**: For various interactive icons.
 - **LocalStorage**: To save the user's dark/light mode preference.
+- **HTML**: For structuring the pages.
+- **CSS**: For styling and designing the website.
+- **JavaScript**: For adding interactivity and dynamic functionality.
+- **GitHub Pages**: For deploying the site directly from a GitHub repository.
+- **Git**: For version control and managing updates.
+
 
 ## Structure
 
@@ -85,7 +91,7 @@ Edit the `<h1>` tag in `App.js` to reflect your own name.
 To add or modify projects, update the `datiles` object in the `data.js` file with the details of your projects.
 
 ```javascript
-const datiles = {
+const project = {
   data: [
     {
       id: 1,
