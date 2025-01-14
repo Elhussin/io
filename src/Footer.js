@@ -5,9 +5,9 @@ import { FaYoutube, FaWhatsapp, FaFacebook, FaTiktok } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-white dark:bg-gray-900 py-8">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-5xl mx-auto px-4" id="contact">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-          تواصل معي
+        Contact Me
         </h2>
         <div className="flex flex-wrap justify-center gap-6">
           <a

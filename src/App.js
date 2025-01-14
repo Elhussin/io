@@ -38,7 +38,7 @@ const App = () => {
 
         <main className="max-w-5xl mx-auto px-4 py-8">
 
-        <Portfolio />    {/* Use the Portfolio component */}
+        <Portfolio /> 
        </main>
       <Footer />
     </div>
