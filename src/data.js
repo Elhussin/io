@@ -3,10 +3,45 @@ export const projectsData = [
       id: "1",
       title: "Summaries ",
       repo: "https://github.com/Elhussin/summary/",
-      url: "https://summary-lio1.onrender.com/",
+      url: "https://summary.osmbeta.cloud",
       description:
         "The **Summaries Project** is a comprehensive web application for managing and interacting with educational content, such as courses and summaries. Built with a robust backend using **Django** and **Django REST Framework (DRF)**, it leverages **JWT** for secure authentication and **Axios** for seamless API communication on the frontend. This project is designed to foster user engagement through features like likes, comments, favorites, and ratings.",
       img: "summaries.png",
+    },
+    {
+      id: "00",
+      title: "Eye Test",
+      repo: "https://github.com/Elhussin/eye-test",
+      url: "https://eyetest.osmbeta.cloud",
+      description:
+        " Eye Test Validator & Contact Lens Converter App An interactive React application for validating and converting optical prescriptions (Eyeglasses & Contact Lenses). Built with **React + TypeScript + TailwindCSS**, and powered by the backend logic from 📦 **eye-test-utils** npm package.",
+      img: "logo.jpeg",
+    },
+    {
+      id: "01",
+      title: "Inventory App",
+      repo: "https://github.com/Elhussin/inventory-app",
+      url: "https://github.com/Elhussin/inventory-app/actions/runs/18987448085",
+      description:
+      "A simple inventory management application to track products, categories, and stock levels",
+      img: "logo.jpeg",
+    },
+    {
+      id: "02",
+      title: "Eye Test Utils Node",
+      repo: "https://github.com/Elhussin/eye-test-utils",
+      url: "https://www.npmjs.com/package/eye-test-utils",
+      description:
+        "Optical Validators Package A robust TypeScript/JavaScript package for validating, formatting, and converting optical prescriptions (Eyeglasses and Contact Lenses).",
+      img: "logo.jpeg",
+    },
+    {
+      id: "03",
+      title: "Eye Test Utils Python",
+      repo: "https://github.com/Elhussin/eye-test-utils",
+      url: "https://pypi.org/project/eyeTestUtils/",
+      description:"EyeTestUtils is a Python library that helps you validate, convert, and format eye test and contact lens data easily. It’s designed for developers building optical systems, clinics, or vision-related applications",
+      img: "logo.jpeg",
     },
 
     {
@@ -172,7 +207,7 @@ export const projectsData = [
     {
       id: "19",
       title: "Portfolio React-App",
-      repo: "https://github.com/Elhussin/io",
+      repo: "https://me.osmbeta.cloud",
       url: "https://github.com/Elhussin/io",
       description:
         `This is my personal portfolio website where I showcase my skills, certifications, and projects. It also includes a contact section for connecting with me through various platforms like GitHub, LinkedIn, and email.`,

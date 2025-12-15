@@ -7,7 +7,7 @@ import  Header from "./Header";
 import Footer from './Footer';
 const App = () => {
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   // Load dark mode preference from localStorage on mount
   useEffect(() => {

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "baseline-browser-mapping": "^2.9.7",
+    "caniuse-lite": "^1.0.30001760",
     "cra-template": "1.2.0",
     "lucide-react": "^0.469.0",
     "react": "^19.0.0",
@@ -44,5 +46,5 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
   },
-  "homepage": "https://Elhussin.github.io/io"
+  "homepage": "https://me.osmbeta.cloud/"
 }
